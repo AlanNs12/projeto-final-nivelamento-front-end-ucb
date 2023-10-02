@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    background-image: url(../images/ocean-teste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+.body-width{
+    width: 80vw;
+    
+}
+/*Inicio configuracoes navbar*/
+.btn{
+    font-weight: bold;
+    color: #343434;
+    border: #343434;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn > img{
+    width: 18px;
+    height: 18px;
+}
+.btn:hover {
+    background-color: #ffffff70;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bolder;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 4px;
+    color: #fff;
+    transition: 0.5s;
+}
+.navbar-brand:hover{
+    color: rgb(1, 133, 89);
+    transition: 0.5s;
+}
+.navbar-expand-lg{
+    display: flex;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    justify-content: end;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    color: rgb(1, 133, 89);
+}
+.nav-link:visited{
+    color: #fff;
+}
+.navbar-toggler-icon{
+    border: none;
+    background-image: url(../images/burguer-preto.png);
+    background-size: cover;
+}
+.navbar-toggler-icon:hover{
+    border: none;
+    background-image: url(../images/burguer-branco.png);
+    background-size: cover;
+}
+.navbar-toggler{
+    border: none;
+    background-color: #ffffff33;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.nav-item{
+    margin: 0px 30px 0px 30px;
+}
+.nav-item:hover{
+    color: rgb(1, 133, 89);
+    border-radius: 8px;
+    text-decoration: underline 2px;
+    text-decoration-color: rgb(1, 133, 89);
+    transition: 0.5s;
+}
+#burguer-button:visited{
+    color: #fff;
+}
+.dropdown-menu{
+    color: #343434;
+    text-decoration: none;
+}
+.dropdown-menu:hover {
+    color: #343434;
+    text-decoration: none;
+}
+#btn-home{
+    color: #fff;
+}
+#btn-home:hover{
+    color: rgb(1, 133, 89);
+    transition: 0.5s;
+}
+/*Fim configuracoes navbar*/
+
+/*Config Cards*/
+.card{
+    margin-left: 8%;
+    margin-top: 15%;
+    background-color: #ffffff00;
+    border: none;
+    padding: 20px;
+}
+.card-title{
+    font-weight: bolder;
+    color: #fff;
+    text-decoration: underline rgb(1, 133, 89) 3px;
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+.card-text{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-primary{
+    width: 60%;
+    border-radius: 20px;
+    background-color: rgb(1, 133, 89);
+    color: #fff;
+    font-size: 1.1rem;
+    justify-content: space-evenly;
+}
+#img-button-card{
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/seta-branco.png);
+    background-size: cover;
+}
+
+.section-card-02{
+    padding:10%;
+}
+.card-title-2{
+    font-family: 'Roboto', sans-serif;
+    color: #0dd894;
+}
+.card-text-2{
+    font-family: 'Roboto', sans-serif;
+    color: #343434;
+}
+.card-3 {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.text-card-3 {
+    flex: 1;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-card-3 h2{
+    font-family: 'Roboto', sans-serif;
+}
+.image-card-3 {
+    flex: 1;
+}
+.image-card-3 > img{
+    width: 100%;
+    height: 100%;
+}
+/*Fim configuracoes de cards*/
+/*Configuracoes cards finais*/
+.section-4{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.row{
+    justify-content: space-evenly;
+}
+.col-12{
+    padding: 10px;
+}
+.col-md-4{
+    padding: 10px;
+    transition: 0.5s;
+}
+.col-md-4 img{
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.col-md-4 img:hover{
+    border-radius: 10px;
+    transition: 0.5s;
+    
+}
+.col-md-4:hover{
+    padding: 0;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.text-card-footer{
+    font-family: 'Roboto', sans-serif;
+
+}
+#img-card-footer-1 h3{
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+#img-card-footer-1:hover h3{
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+#img-card-footer-2 h3{
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+#img-card-footer-2:hover h3{
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+#img-card-footer-3 h3{
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+#img-card-footer-3:hover h3{
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+#img-card-footer-4 h3{
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+#img-card-footer-4:hover h3{
+    opacity: 1;
+    transition: 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+/* fim configuracoes finais*/
+@media (max-width: 991px){
+    .d-flex{
+        display: flex;
+        justify-content: center;
+    }
+    .form-control{
+        width: 50%;
+    }
+    .card{
+        margin-left: 1%;
+        margin-top: 10%;
+        background-color: #ffffff00;
+        border: none;
+    }
+    .card-title{
+        font-weight: bolder;
+        color: #fff;
+        text-decoration: underline rgb(1, 133, 89) 3px;
+        font-size: 1.4rem;
+        width: 100%;
+    }
+    .card-text-2{
+        width: 20rem!important;
+    }
+}
+@media (max-width: 1200px){
+    .body-width{
+        width: 95vw;
+    }
+}
